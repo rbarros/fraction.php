@@ -17,6 +17,7 @@
 
 class Fraction {
     
+    private $version = '1.0';
     private $fraction = null;
     private $numerator = null;
     private $denominator = null;
