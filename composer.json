@@ -1,0 +1,22 @@
+{
+    "name": "rbarros/fraction.php",
+    "authors":[
+        {
+            "name":"Ramon Barros",
+            "email": "contato@ramon-barros.com"
+        }
+    ],
+    "require":{
+        "php":">=5.3.7",
+        "phpunit/phpunit": "3.7.1"
+    },
+    "minimum-stability": "dev",
+    "config": {
+        "bin-dir": "bin/"
+    },
+    "autoload": {
+        "psr-0": { 
+            "": "src/" 
+        }
+    }
+}
